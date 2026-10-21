@@ -29,6 +29,9 @@ lock_field = $(shell awk -v n='$(1)' '$$1 == n { print $$$(2) }' $(LOCK))
 
 .PHONY: all release clean
 
+# Downloads and extractions are kept, so a rebuild does not fetch them again.
+.SECONDARY:
+
 all: $(addprefix $(DIST)/,$(WOFF2)) $(DIST)/SHA256SUMS $(addprefix $(LICENSES)/,$(LICENCES))
 
 # Download a source, refuse it unless its sha256 matches sources.lock.
