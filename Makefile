@@ -113,7 +113,9 @@ $(DIST)/SHA256SUMS: $(addprefix $(DIST)/,$(WOFF2))
 # Usage: make release TAG=vX.Y.Z
 release: all
 	@test -n "$(TAG)" || { echo "usage: make release TAG=vX.Y.Z" >&2; exit 1; }
-	gh release create $(TAG) --repo LibrePaper/editor-fonts $(DIST)/*.woff2 $(DIST)/SHA256SUMS $(DIST)/licenses/*
+	gh release create $(TAG) --repo LibrePaper/editor-fonts --title $(TAG) \
+		--notes "Upstream's unmodified WOFF2 files, each under its font's SIL Open Font License 1.1. See sources.lock for the upstream releases." \
+		$(DIST)/*.woff2 $(DIST)/SHA256SUMS $(DIST)/licenses/*
 
 clean:
 	rm -rf build $(DIST)
