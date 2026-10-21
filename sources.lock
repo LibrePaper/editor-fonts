@@ -1,0 +1,11 @@
+# name  url  sha256
+jetbrains-mono  https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip  6f6376c6ed2960ea8a963cd7387ec9d76e3f629125bc33d1fdcd7eb7012f7bbf
+fira-code  https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip  0949915ba8eb24d89fd93d10a7ff623f42830d7c5ffc3ecbf960e4ecad3e3e79
+fira-code-ofl  https://raw.githubusercontent.com/tonsky/FiraCode/6.2/LICENSE  1d41e10031ab125302780a05ec4c91d218e47db0c7e37cf315cce5e608cdc25c
+source-code-pro  https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/VF-source-code-VF-1.026R.zip  0660ba0cd1478f92cfcf2ad790b7aa29f8adb2daf15598f452a65ae61c9c9fb1
+source-code-pro-ofl  https://raw.githubusercontent.com/adobe-fonts/source-code-pro/2.042R-u/1.062R-i/1.026R-vf/LICENSE.md  7c940e28a5388e9bba866cf0e408edda45fe0899ba98665b8f6ab31dc5e4b8ff
+ibm-plex-mono  https://github.com/IBM/plex/releases/download/%40ibm/plex-mono%402.5.0/ibm-plex-mono.zip  6d23f01257663d8cc49a0d64c22ced630b79e0e2a0ac08a0da86e9a38bbc481c
+cascadia-code  https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip  e67a68ee3386db63f48b9054bd196ea752bc6a4ebb4df35adce6733da50c8474
+cascadia-code-ofl  https://raw.githubusercontent.com/microsoft/cascadia-code/v2407.24/LICENSE  51882cd3cdba4e16f220f44ddb08a635c38c44ea6e0975db2574f4be6f958238
+opendyslexic-mono-glyphs  https://raw.githubusercontent.com/antijingoist/opendyslexic/1824da5c0e41dc3e13ffc7f3a636dcaf695d61b7/sources/opendyslexic-mono/OpenDyslexic-Mono.glyphs  e3a26fe675f96341070cfe298efc538c24ef0c2e182a4474e43019e9657ca58f
+opendyslexic-ofl  https://raw.githubusercontent.com/antijingoist/opendyslexic/1824da5c0e41dc3e13ffc7f3a636dcaf695d61b7/OFL.txt  caafcccfb70fc72458fcbda812ec8f0a06cb300cbabb87eabbb30b946124394b
